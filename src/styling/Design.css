@@ -1,0 +1,55 @@
+.pageSelector{
+    justify-content: center;
+    
+    display: flex;
+    background: url("http://www.kabu-load.net/data/out/101/IMG_872272.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+    
+}
+
+.ListPage {
+    justify-content: center;
+    
+    display: grid;
+    min-height: 100vh;
+    max-height: 100%;
+    width: 100vw;
+}
+.RandomPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    min-height: 100vh;
+    max-height: 100%;
+    width: 50vw;
+}
+
+.MainPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: space-around;
+    height: 500px;
+    width: 50vw;
+}
+
+.mainBtn {
+    height: 70px;
+    width: 15vw;
+    border-radius: 15px;
+    font-size: 22pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.NextList {
+    margin-top: 5px;
+}
