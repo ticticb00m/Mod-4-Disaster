@@ -52,7 +52,7 @@ export default class MainPage extends Component {
 
     backBtn = () => {
         return (
-            <button onClick={() => this.setState({show: null})}>
+            <button className="BackList" onClick={() => this.setState({show: null})}>
                 Main Page 
             </button>
         )
@@ -66,7 +66,7 @@ export default class MainPage extends Component {
                     Random jokes
                 </button>
                 <button className="mainBtn" onClick={() =>this.setState({show: "list" }) } >
-                    List of Jokes
+                    List of 20 Jokes
                 </button>
                 <button className="mainBtn" onClick={() =>this.setState({show: "favorites" }) } >
                     Favorite Jokes
